@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <title>App Pacientes</title>
+</head>
+<body>
+    <main>
+        <section class="appointment-section">
+            <div class="appointment-section__title-container">
+                <h1 class="appointment-section__title-container--title">Administrador de citas</h1>
+            </div>
+            <article class="form-container">
+                <div class="form-container__title">
+                    <h3>Crear Cita</h3>
+                </div>
+                <form action="#" id="form" class="form">
+                    <label for="#" class="input-container">
+                        <span class="input-container__title">Nombre de Mascota</span>
+                        <input type="text"
+                               name="mascota"
+                               id="mascota"
+                               class="input"
+                               placeholder="Nombre de las Mascota...">
+                    </label>
+                    <label for="#" class="input-container">
+                        <span class="input-container__title">Nombre del Dueño</span>
+                        <input type="text"
+                               name="propietario"
+                               id="propietario"
+                               class="input"
+                               placeholder="Nombre del Dueño...">
+                    </label>
+                    <label for="#" class="input-container">
+                        <span class="input-container__title">Fecha</span>
+                        <input type="date"
+                               name="fecha"
+                               id="fecha"
+                               class="input-date">
+                    </label>
+                    <label for="#" class="input-container">
+                        <span class="input-container__title">Hora</span>
+                        <input type="time"
+                               name="hora"
+                               id="hora"
+                               class="input-time">
+                    </label>
+                    <label for="#" class="textarea-container">
+                        <span class="input-container__title">Sintomas</span>
+                        <textarea
+                                  id="sintomas"
+                                  name="sintomas">
+                        </textarea>
+                    </label>
+                    <button class="button" id="button">Agregar cita</button>
+                </form>
+            </article>
+        </section>
+    </main>
+    
+</body>
+</html>
